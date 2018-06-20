@@ -5,7 +5,7 @@
  */
 package conexion;
 
-import com.mysql.jdbc.Connection;
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -50,7 +50,7 @@ public class Conexion {
         user= "root";
         pass="";
         driver="com.mysql.jdbc.Driver";
-        url="jdbc:mysql://localhost/127.0.0.1/filtros";
+        url="jdbc:mysql://localhost/filtros";
     }
     public Connection getCnx(){
         return cnx;
