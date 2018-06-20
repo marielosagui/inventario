@@ -89,7 +89,7 @@ public class consulta extends JFrame {
         si= new JRadioButton("si", true);
         no=new JRadioButton("no");
         resultados =new JTable();
-        buscar= new JButton("Busar");
+        buscar= new JButton("Buscar");
         insertar=new JButton("Insertar");
         eliminar= new JButton("Eliminar");
         actualizar= new JButton("Actualizar");
